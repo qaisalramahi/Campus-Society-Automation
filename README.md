@@ -16,12 +16,11 @@ I had a function that was responsible for formatting the message in a neat and c
 What really helped making this happen is the pywhatkit library and I am extremely grateful for [Ankit404butfound](https://github.com/Ankit404butfound) for creating this library because without it - I would not have been able to make this. 
 WhatsApp have a real problem sharing their API and finding it for free was a pain for the longest time. 
 
-## What ramadan.py was does: 
+## What ramadan.py does: 
 
 Here, the only difference was that instead of following the website that I was scraping data from - I was given a pdf document and told to follow the contents that were on there instead for a specific month of the year.
-But once again due to the availability of a library that eases these things in this case PyPDF2 - extracting the data and placing it in a specific format by splitting the text was an easy solution. 
+But once again due to the availability of a library that eases these things, in this case PyPDF2 which have a .extract_text() method - extracting the data and placing it in a specific format by splitting the text was an easy solution to implement. 
 
 ## How I schedule the message
-Right now I am trying to make this project without spending money on it although I know that I can put this script on the cloud and it can run automatically that way. However, for the time being I am using Microsoft's task scheduler which
-does it for me. I know this is somewhat of a limitation right now but can definitely be imporved in the future. That is also why I have the part for APscheduler commented because that could also be an option if I wanted to use code
-to automate this procedure as well. 
+
+Right now I am trying to make this project without spending money on it although I know that I can put this script on the cloud and it can run automatically that way. However, for the time being I am using Microsoft's task scheduler which does it for me. I know this is somewhat of a limitation right now but can definitely be imporved in the future. That is also why I have the part for APscheduler commented because that could also be an option if I wanted to use code to automate this procedure as well. 
