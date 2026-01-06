@@ -23,4 +23,4 @@ But once again due to the availability of a library that eases these things, in 
 
 ## How I schedule the message
 
-Right now I am trying to make this project without spending money on it although I know that I can put this script on the cloud and it can run automatically that way. However, for the time being I am using Microsoft's task scheduler which does it for me. I know this is somewhat of a limitation right now but can definitely be imporved in the future. That is also why I have the part for APscheduler commented because that could also be an option if I wanted to use code to automate this procedure as well. 
+Right now I am trying to make this project without spending money on it although I know that I can put this script on the cloud and it can run automatically that way. However, for the time being I am using Microsoft's task scheduler which does it for me. I know this is somewhat of a limitation right now but can definitely be improved in the future. That is also why I have the part for APscheduler commented because that could also be an option if I wanted to use code to automate this procedure as well. 
